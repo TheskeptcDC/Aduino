@@ -5,10 +5,10 @@
 
 #include "SevSeg"
 
-SevSeg count;                     //our display object instantiation 
+SevSeg count;                                            //our display object instantiation 
 
 void setup(){
-        byte numDigits = 1;       // Number of digits in your display
+        byte numDigits = 1;                              // Number of digits in your display
         byte digitPins[] = {};  
         byte segmentPins[] = {2, 3, 4, 5, 6, 7, 8, 9};  // Pins for segments A to DP
         bool resistorsOnSegments = true;  
