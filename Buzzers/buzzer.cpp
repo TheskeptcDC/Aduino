@@ -2,7 +2,7 @@
 // pin 2 named palse_beep 
 // the buzzer beeps every after 1 second 
 // image palse_beep2.png      --for circit design 
-#define palse_beep 2
+#define palse_beep 6
 
 void setup(){
     pinMode(palse_beep,OUTPUT);

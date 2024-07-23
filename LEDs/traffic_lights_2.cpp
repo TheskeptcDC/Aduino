@@ -2,7 +2,7 @@
 // the LEDs are connected to 3 digital pins 9,10 and 11 as red, green and orange respectively
 // the circuit is shown in wiring_components(2).png 
 
-#define red A3
+#define red 3
 #define green 4
 #define orange 7
 
@@ -29,7 +29,7 @@ void loop(){
     digitalWrite(green,0);
     delay(2000);
     // red on for 5 seconds 
-    digitalWrite(red,1);
+    digitalWrite(red,200);
     digitalWrite(orange,0);
     digitalWrite(green,0);
     delay(5000);

@@ -10,7 +10,7 @@ SevSeg count;                                            //our display object in
 void setup(){
         byte numDigits = 1;                              // Number of digits in your display
         byte digitPins[] = {};  
-        byte segmentPins[] = {2, 3, 4, 5, 6, 7, 8, 9};  // Pins for segments A to DP
+        byte segmentPins[] = {10, 11, 12, 13, A0, A1, A2};  // Pins for segments A to DP
         bool resistorsOnSegments = true;  
         byte hardwareConfig = COMMON_CATHODE;           // change to common anode if common anode is deing used 
         bool updateWithDelays = false;  
