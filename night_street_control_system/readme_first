@@ -1,0 +1,22 @@
+
+ Street Light Automation Using LDR and Arduino
+
+This project demonstrates an automatic street light system that turns lights on during the night and off during the day. The system uses a Light Dependent Resistor (LDR) to sense ambient light levels and controls a relay to switch the street light accordingly.
+
+ Components Used
+- Arduino
+- Light Dependent Resistor (LDR)
+- Relay Module
+- 10 Ohm Resistor
+- Connecting Wires
+
+ How It Works
+The LDR detects the ambient light level. When it gets dark, the resistance of the LDR increases, resulting in a higher analog value read by the Arduino. The Arduino then activates the relay to turn on the street light. When it is bright, the resistance decreases, and the Arduino turns off the relay, switching off the street light.
+
+ Notes
+- The threshold value for light can be adjusted to suit the desired sensitivity.
+- The delay can be modified to change the frequency of readings.
+- Ensure all connections are secure to avoid any short circuits.
+
+ Conclusion
+This simple yet effective project is perfect for beginners to learn about using sensors with Arduino and automating systems based on environmental conditions.
