@@ -1,5 +1,5 @@
-#define motor A9
-#define speedometer A3
+#define motor A2
+#define speedometer A1
 int speed = 0;
 
 void setup(){
@@ -11,11 +11,12 @@ void setup(){
 
 
 void loop(){
-    long reading= analogRead(speedometer);
-          speed = map(reading,0,200,0,1023);
+    int reading= analogRead(speedometer);
+          long speed = map(reading, 0, 1023, 0, 255);
 
-          Serial.print('running @:');
+          // Serial.print("@");
           Serial.println(speed);
+          // delay((10));
     
 
 }
