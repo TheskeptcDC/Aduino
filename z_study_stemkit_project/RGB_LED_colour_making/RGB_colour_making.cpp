@@ -2,9 +2,9 @@
 // the LED is connected to 3 digital pins 9,10 and 11 as red, green and orange respectively
 // the circuit is shown in wiring_components(3).png 
 
-#define red 9
-#define green 10
-#define blue 11
+#define red 10
+#define green 7
+#define blue 8
 
 void setup(){
     pinMode(green,OUTPUT);
